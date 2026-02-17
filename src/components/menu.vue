@@ -9,6 +9,7 @@
     </div>
     
 </template>
+
 <style scoped>
 .border {
     border: 1px solid rgb(255, 230, 0);
@@ -19,7 +20,7 @@
     margin-top: 50px;
     position: fixed;
     display: flex;
-    background-color: rgb(0, 0, 0, 0.7);
+    background-color: rgb(0, 0, 0);
     z-index: 99;
 }
 .logo {
@@ -67,5 +68,11 @@
     margin-left: 60px;
     margin-top: 20px;
 }
-
+@media (max-width: 480px) {
+    .border {
+        width: 87%;
+        margin-left: 5%;
+        margin-top: 40px;
+    }
+}
 </style>
