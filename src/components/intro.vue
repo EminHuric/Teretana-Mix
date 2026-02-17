@@ -49,7 +49,6 @@ const bookTrial = () => {
 .em {
     font-size: 100px;
     color: #FFD700;
-    margin-top: -100px;
 }
 
 .e {
@@ -130,9 +129,10 @@ button:hover {
     background-color: #e6c200;
 }
 
-@media (max-width: 480px) {
+/* Mobilni uređaji: 0px - 768px */
+@media (min-width: 0px) and (max-width: 768px) {
     .em {
-        margin-top: 80px;
+        margin-top: 140px;
         font-size: 50px;
         width: 110%;
     }
@@ -140,7 +140,6 @@ button:hover {
         margin-top: -25px;
         font-size: 40px;
         width: 101%;
-
     }
     .p {
         font-size: 20px;
@@ -148,9 +147,43 @@ button:hover {
     .statistic {
         margin-top: 20px;
         font-size: 18px;
+        z-index: 999;
     }
-    .hero-video {
-        height: 300vh;
+}
+
+/* Tableti: 769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .em {
+        margin-top: 80px;
+        font-size: 65px;
+        width: 110%;
+    }
+    .e {
+        margin-top: -30px;
+        font-size: 55px;
+        width: 101%;
+    }
+    .p {
+        font-size: 22px;
+    }
+    .statistic {
+        margin-top: 20px;
+        font-size: 18px;
+        z-index: 999;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .em {
+        font-size: 90px;
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1401px) and (max-width: 50000px) {
+    .em {
+        font-size: 90px;
+        margin-top: 50px;
     }
 }
 </style>
