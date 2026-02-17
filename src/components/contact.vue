@@ -157,9 +157,17 @@
     height: 4px;
     margin: 20px 0;
   }
-  .contact-left,
   .contact-right {
     width: 70%;
+  }
+  .contact-left input {
+    width: 85%;
+  }
+  .contact-left textarea {
+    width: 85%;
+  }
+  .contact-left button {
+    width: 94%;
   }
 }
 </style>
