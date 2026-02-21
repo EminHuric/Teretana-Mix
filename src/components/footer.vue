@@ -23,8 +23,8 @@
       <div class="footer-right">
         <h4>Kontakt</h4>
         <p>Email: <a href="mailto:markotara.pp@gmail.com">markotara.pp@gmail.com</a></p>
-        <p>Telefon: +381 65 2206269</p>
-        <p>Ulica Snadžackih Brigada 7</p>
+        <p>Telefon: +381 60 3055077</p>
+        <p>Ulica Tufa Hadžagića 7</p>
       </div>
     </div>
 
